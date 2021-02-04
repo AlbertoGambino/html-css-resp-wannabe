@@ -1,0 +1,51 @@
+@media screen and (max-width: 420px) {
+  *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+  }
+
+  .row {
+    margin-top: 0;
+  }
+  /* blocco lezioni */
+  .row h1{
+    width: 100vw;
+    text-align: center;
+    vertical-align: middle;
+  }
+
+  #lezioni .row>.left,
+  #lezioni .row>.right{
+    width: 100vw;
+    float: none;
+    text-align: center;
+    margin: 25px 0;
+  }
+
+  /* blocco steps */
+
+  #steps .row>.left,
+  #steps .row>.central,
+  #steps .row>.right {
+    float: none;
+    display: block;
+    width: 100vw;
+    margin: 25px 0;
+  }
+
+  /* blocco perchè */
+
+  #why .row>.first,
+  #why .row>.second,
+  #why .row>.third {
+    width: 100vw;
+    margin: 25px 0;
+  }
+
+  #why .row img {
+    background-color: #428bca;
+    border-radius: 50%;
+    padding: 30px
+  }
